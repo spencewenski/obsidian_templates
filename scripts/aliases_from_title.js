@@ -1,4 +1,4 @@
-const REGEX = /(?<zettel_id>\d+).*-(?<name>.*)/;
+const REGEX = /(?<zettel_id>\d+).*?-(?<name>.*)/;
 
 /**
  * Get aliases for the current file based on its title.

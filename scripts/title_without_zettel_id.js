@@ -1,4 +1,4 @@
-const REGEX = /(?<zettel_id>\d+).*-(?<name>.*)/;
+const REGEX = /(?<zettel_id>\d+).*?-(?<name>.*)/;
 
 /**
  * Get the name of this file without its zettel id.
