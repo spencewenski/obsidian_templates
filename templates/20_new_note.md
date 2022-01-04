@@ -1,5 +1,5 @@
 ---
-creation date: <% tp.file.creation_date("'D MMM YYYY [at] HH:MM'") %>
+creation date: <% tp.file.creation_date("'D MMM YYYY [at] HH:mm'") %>
 aliases: <% tp.user.aliases_from_title(tp) %>
 ---
 
